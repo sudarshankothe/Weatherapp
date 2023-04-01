@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(15, 15, 15);
+  color: #ffff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 40px;
+  font-weight: 200;
+  min-width: 350px;
+  margin-bottom: 10px;
+}
+input:focus {
+  outline: none;
+}
+#main {
+  font-size: 30px;
+  text-align: center;
+}
